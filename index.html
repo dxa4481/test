@@ -1,0 +1,59 @@
+
+    <!-- Clickable image in the top left -->
+    <style>
+        ul, li, p, h1 {
+          text-align: left;
+        }
+    </style>
+    <a href="https://trufflesecurity.com"><img src="MadeBy.png" alt="Clickable Image" width="120" /></a>
+
+    <!-- Centered, round, ominous red button -->
+    <div style="text-align: center;">
+      <button onclick="(function(){javascript:var s=document.createElement('script');s.setAttribute('src','https://nthitz.github.io/turndownforwhatjs/tdfw.js');document.body.appendChild(s);})();" style="font-size: 24px; background-color: red; border-radius: 50%; width: 100px; height: 100px; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19); transform: translateZ(0); transition: all 0.25s ease; color: white;">Don't Click Me</button>
+    </div>
+
+    <!-- Centered block of text below the image -->
+    <div style="text-align: center; width: 50%; margin: 0 auto;">
+        <h1> What is subdomain takeover? </h1>
+        <p>A subdomain takeover is when an adversary is able to claim and serve content on a host that points to a third-party service that is no longer in use. For example, let's
+        <p>A subdomain takeover is when an adversary is able to claim and serve content on a host that points to a third-party service that is no longer in use. For example, let's say that <b>example.com</b> has a subdomain, <b>subdomain.example.com</b>, that is pointed at a GitHub Pages HTML page. If the team running <b>example.com</b> is not actively using this subdomain and has not properly configured it, an adversary may be able to set up their own account on GitHub and add the subdomain to their own repository. This would allow the adversary to serve their own content on <b>subdomain.example.com</b>.</p>
+        <h1>How do you fix a subdomain takeover? </h1>
+        <p>To fix this issue, the team running <b>example.com</b> should take the following steps:</p>
+        <ol>
+          <li>Confirm that the subdomain is indeed vulnerable to takeover. This can be done by navigating to the subdomain and checking for a 404 error page or other indicators that the subdomain is not in use.</li>
+          <li>Secure the subdomain by either deleting the DNS record, pointing it to an active service or by configuring a proper 404 page. This can be done through the DNS records for the subdomain.</li>
+          <li>Monitor the subdomain regularly to ensure that it remains secure and is not vulnerable to future takeover attempts.</li>
+        </ol>
+        <p>It is also important for the team running <b>example.com</b> to regularly audit their DNS records and ensure that all subdomains are properly configured and in use to prevent future subdomain takeovers.</p>
+        <h1> Examples of Subdomain Takeover </h1>
+        <p>Here are a few subdomain takeovers companies paid for:</p>
+        <ul>
+          <li><a href="https://hackerone.com/reports/219205">https://hackerone.com/reports/219205</a></li>
+          <li><a href="https://hackerone.com/reports/1777077">https://hackerone.com/reports/1777077</a></li>
+          <li><a href="https://hackerone.com/reports/1717626">https://hackerone.com/reports/1717626</a></li>
+          <li><a href="https://hackerone.com/reports/1718371">https://hackerone.com/reports/1718371</a></li>
+          <li><a href="https://hackerone.com/reports/1690951">https://hackerone.com/reports/1690951</a></li>
+          <li><a href="https://hackerone.com/reports/1102537">https://hackerone.com/reports/1102537</a></li>
+          <li><a href="https://hackerone.com/reports/1102537">https://hackerone.com/reports/1102537</a></li>
+          <li><a href="https://hackerone.com/reports/1711890">https://hackerone.com/reports/1711890</a></li>
+          <li><a href="https://hackerone.com/reports/1447751">https://hackerone.com/reports/1447751</a></li>
+          <li><a href="https://hackerone.com/reports/1661914">https://hackerone.com/reports/1661914</a></li>
+          <li><a href="https://hackerone.com/reports/1697402">https://hackerone.com/reports/1697402</a></li>
+          <li><a href="https://hackerone.com/reports/502758">https://hackerone.com/reports/502758</a></li>
+          <li><a href="https://hackerone.com/reports/1433125">https://hackerone.com/reports/1433125</a></li>
+          <li><a href="https://hackerone.com/reports/1527405">https://hackerone.com/reports/1527405</a></li>
+          <li><a href="https://hackerone.com/reports/665398">https://hackerone.com/reports/665398</a></li>
+          <li><a href="https://hackerone.com/reports/1429148">https://hackerone.com/reports/1429148</a></li>
+          <li><a href="https://hackerone.com/reports/1486670">https://hackerone.com/reports/1486670</a></li>
+        </ul>
+        <!-- Centered image below the button -->
+        <h1> Here's Microsoft's 1 year old view on the matter </h1>
+        <div style="text-align: center;">
+          <img src="centered-image.png" alt="Centered Image" width="600" />
+        </div>
+
+
+    </div>
+  </body>
+</html>
+
